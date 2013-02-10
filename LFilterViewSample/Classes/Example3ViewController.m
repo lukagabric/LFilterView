@@ -1,12 +1,11 @@
-#import "Example2ViewController.h"
+#import "Example3ViewController.h"
 #import "LFilterSection.h"
 #import "LFilterElement.h"
 #import "LSpacingElement.h"
 #import "LTextElement.h"
-#import "Example3ViewController.h"
 
 
-@implementation Example2ViewController
+@implementation Example3ViewController
 
 
 #pragma mark - View
@@ -16,7 +15,7 @@
 {
     [super viewDidLoad];
     
-    self.title = @"Example 2";
+    self.title = @"Example 3";
     
     _filterView.actionDelegate = self;
     
@@ -57,7 +56,7 @@
 
 - (IBAction)buttonNextAction:(id)sender
 {
-    [self.navigationController pushViewController:[Example3ViewController new] animated:YES];
+    
 }
 
 

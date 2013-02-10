@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		412BACEA16C795920021DCD1 /* LTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BACE916C795920021DCD1 /* LTextElement.m */; };
 		412BACEE16C7961E0021DCD1 /* LTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412BACED16C7961E0021DCD1 /* LTextCell.xib */; };
+		41381BF916C799B000FF8D8F /* Example3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41381BF716C799B000FF8D8F /* Example3ViewController.m */; };
+		41381BFA16C799B000FF8D8F /* Example3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381BF816C799B000FF8D8F /* Example3ViewController.xib */; };
 		A115F06016ADD15C0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
 		A115F07416ADD17D0011010E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F07316ADD17D0011010E /* UIKit.framework */; };
 		A115F07516ADD17D0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
@@ -58,6 +60,9 @@
 		412BACE816C795920021DCD1 /* LTextElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTextElement.h; sourceTree = "<group>"; };
 		412BACE916C795920021DCD1 /* LTextElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTextElement.m; sourceTree = "<group>"; };
 		412BACED16C7961E0021DCD1 /* LTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTextCell.xib; sourceTree = "<group>"; };
+		41381BF616C799B000FF8D8F /* Example3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example3ViewController.h; sourceTree = "<group>"; };
+		41381BF716C799B000FF8D8F /* Example3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example3ViewController.m; sourceTree = "<group>"; };
+		41381BF816C799B000FF8D8F /* Example3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example3ViewController.xib; sourceTree = "<group>"; };
 		A115F05C16ADD15C0011010E /* libLFilterView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLFilterView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A115F05F16ADD15C0011010E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A115F07116ADD17D0011010E /* LFilterViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFilterViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -197,6 +202,9 @@
 				A118CF3A16ADE8D90005FB20 /* Example2ViewController.h */,
 				A118CF3B16ADE8D90005FB20 /* Example2ViewController.m */,
 				A118CF3C16ADE8D90005FB20 /* Example2ViewController.xib */,
+				41381BF616C799B000FF8D8F /* Example3ViewController.h */,
+				41381BF716C799B000FF8D8F /* Example3ViewController.m */,
+				41381BF816C799B000FF8D8F /* Example3ViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -376,6 +384,7 @@
 				A118CF2E16ADDE0A0005FB20 /* Example1ViewController.xib in Resources */,
 				A118CF3E16ADE8D90005FB20 /* Example2ViewController.xib in Resources */,
 				412BACEE16C7961E0021DCD1 /* LTextCell.xib in Resources */,
+				41381BFA16C799B000FF8D8F /* Example3ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +413,7 @@
 				A115F0A316ADD1F80011010E /* Example1ViewController.m in Sources */,
 				A115F0A516ADD1F80011010E /* main.m in Sources */,
 				A118CF3D16ADE8D90005FB20 /* Example2ViewController.m in Sources */,
+				41381BF916C799B000FF8D8F /* Example3ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
