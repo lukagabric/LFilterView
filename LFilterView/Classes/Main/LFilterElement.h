@@ -56,7 +56,7 @@
 @protocol CustomActionDelegate <NSObject>
 
 
-- (void)didPerformAction:(NSString *)action withParams:(NSDictionary *)params;
+- (void)element:(LFilterElement *)element didPerformAction:(NSString *)action withParams:(NSDictionary *)params;
 
 
 @end

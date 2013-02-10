@@ -44,10 +44,9 @@
 							<object class="IBUILabel" id="695518946">
 								<reference key="NSNextResponder" ref="873141086"/>
 								<int key="NSvFlags">298</int>
-								<string key="NSFrame">{{0, 3}, {225, 32}}</string>
+								<string key="NSFrame">{{0, 3}, {249, 32}}</string>
 								<reference key="NSSuperview" ref="873141086"/>
-								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="806510729"/>
+								<reference key="NSNextKeyView" ref="789318138"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -55,12 +54,12 @@
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<string key="IBUIText">Label</string>
-								<object class="NSColor" key="IBUITextColor" id="346543761">
+								<object class="NSColor" key="IBUITextColor" id="378393958">
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MCAwIDAAA</bytes>
 									<string key="IBUIColorCocoaTouchKeyPath">darkTextColor</string>
 								</object>
-								<object class="NSColor" key="IBUIHighlightedColor" id="869703013">
+								<object class="NSColor" key="IBUIHighlightedColor" id="1070136431">
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MQA</bytes>
 								</object>
@@ -76,12 +75,12 @@
 								</object>
 								<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 							</object>
-							<object class="IBUILabel" id="856017611">
+							<object class="IBUILabel" id="789318138">
 								<reference key="NSNextResponder" ref="873141086"/>
 								<int key="NSvFlags">298</int>
-								<string key="NSFrame">{{0, 34}, {225, 32}}</string>
+								<string key="NSFrame">{{0, 34}, {249, 32}}</string>
 								<reference key="NSSuperview" ref="873141086"/>
-								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="868988256"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -89,8 +88,8 @@
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<string key="IBUIText">Label</string>
-								<reference key="IBUITextColor" ref="346543761"/>
-								<reference key="IBUIHighlightedColor" ref="869703013"/>
+								<reference key="IBUITextColor" ref="378393958"/>
+								<reference key="IBUIHighlightedColor" ref="1070136431"/>
 								<int key="IBUIBaselineAdjustment">0</int>
 								<object class="IBUIFontDescription" key="IBUIFontDescription">
 									<int key="type">3</int>
@@ -106,9 +105,8 @@
 							<object class="IBUIImageView" id="806510729">
 								<reference key="NSNextResponder" ref="873141086"/>
 								<int key="NSvFlags">297</int>
-								<string key="NSFrame">{{287, 28}, {13, 13}}</string>
+								<string key="NSFrame">{{295, 28}, {13, 13}}</string>
 								<reference key="NSSuperview" ref="873141086"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="416668691"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -119,7 +117,6 @@
 								<int key="NSvFlags">266</int>
 								<string key="NSFrame">{{0, 70}, {320, 1}}</string>
 								<reference key="NSSuperview" ref="873141086"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<object class="NSColor" key="IBUIBackgroundColor">
@@ -129,12 +126,12 @@
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							</object>
-							<object class="IBUIButton" id="154052265">
+							<object class="IBUIButton" id="868988256">
 								<reference key="NSNextResponder" ref="873141086"/>
-								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{245, 25}, {18, 19}}</string>
+								<int key="NSvFlags">297</int>
+								<string key="NSFrame">{{257, 25}, {18, 19}}</string>
 								<reference key="NSSuperview" ref="873141086"/>
-								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="806510729"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -142,7 +139,7 @@
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<int key="IBUIButtonType">4</int>
 								<bool key="IBUIShowsTouchWhenHighlighted">YES</bool>
-								<reference key="IBUIHighlightedTitleColor" ref="869703013"/>
+								<reference key="IBUIHighlightedTitleColor" ref="1070136431"/>
 								<object class="NSColor" key="IBUINormalTitleColor">
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
@@ -164,7 +161,6 @@
 						</array>
 						<string key="NSFrameSize">{320, 70}</string>
 						<reference key="NSSuperview" ref="722260131"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="695518946"/>
 						<string key="NSReuseIdentifierKey">_NS:11</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
@@ -180,7 +176,6 @@
 				</array>
 				<string key="NSFrameSize">{320, 71}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="873141086"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -216,6 +211,23 @@
 					</object>
 					<int key="connectionID">8</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">_labelSubtitle</string>
+						<reference key="source" ref="722260131"/>
+						<reference key="destination" ref="789318138"/>
+					</object>
+					<int key="connectionID">12</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">actionInfoButton:</string>
+						<reference key="source" ref="868988256"/>
+						<reference key="destination" ref="722260131"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">11</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -243,8 +255,8 @@
 							<reference ref="695518946"/>
 							<reference ref="806510729"/>
 							<reference ref="416668691"/>
-							<reference ref="856017611"/>
-							<reference ref="154052265"/>
+							<reference ref="789318138"/>
+							<reference ref="868988256"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -265,12 +277,12 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">9</int>
-						<reference key="object" ref="856017611"/>
+						<reference key="object" ref="789318138"/>
 						<reference key="parent" ref="722260131"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
-						<reference key="object" ref="154052265"/>
+						<reference key="object" ref="868988256"/>
 						<reference key="parent" ref="722260131"/>
 					</object>
 				</array>
@@ -292,55 +304,9 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">10</int>
+			<int key="maxID">12</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">LFilterCell</string>
-					<string key="superclassName">UITableViewCell</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="_imageViewCheckmark">UIImageView</string>
-						<string key="_labelText">UILabel</string>
-						<string key="_separator">SeparatorImageView</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="_imageViewCheckmark">
-							<string key="name">_imageViewCheckmark</string>
-							<string key="candidateClassName">UIImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="_labelText">
-							<string key="name">_labelText</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="_separator">
-							<string key="name">_separator</string>
-							<string key="candidateClassName">SeparatorImageView</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/LFilterCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MyCustomCell</string>
-					<string key="superclassName">LFilterCell</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/MyCustomCell.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">SeparatorImageView</string>
-					<string key="superclassName">UIImageView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/SeparatorImageView.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>

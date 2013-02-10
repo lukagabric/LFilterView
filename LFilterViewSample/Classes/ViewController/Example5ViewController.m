@@ -1,6 +1,6 @@
 #import "Example5ViewController.h"
 #import "LFilterSection.h"
-#import "LFilterElement.h"
+#import "MyCustomElement.h"
 #import "LSpacingElement.h"
 #import "LTextElement.h"
 
@@ -15,7 +15,7 @@
 {
     [super viewDidLoad];
     
-    self.title = @"Radio";
+    self.title = @"Custom";
     
     _filterView.actionDelegate = self;
     
@@ -24,9 +24,7 @@
     
     [self addGroup:@"A" toSection:section withNumberOfItems:3];
     [self addGroup:@"B" toSection:section withNumberOfItems:2];
-    [self addGroup:@"C" toSection:section withNumberOfItems:5];
-    [self addGroup:@"D" toSection:section withNumberOfItems:5];
-
+    
     LTextElement *textElement = [LTextElement new];
     textElement.title = @"End";
     textElement.rowHeight = 50;
@@ -55,10 +53,11 @@
     
     for (int i = 1; i <= noOfItems; i++)
     {
-        LFilterElement *element = [LFilterElement new];
+        MyCustomElement *element = [MyCustomElement new];
         element.title = [NSString stringWithFormat:@"Option %@.%d", groupName, i];
+        element.subtitle = [NSString stringWithFormat:@"Subtitle %@.%d", groupName, i];
         element.radioGroup = groupName;
-        element.cellReuseIdentifier = @"LFilterCellReuseIdentifier";
+        element.customActionDelegate = self;
         [section addElement:element];
     }
     
@@ -66,6 +65,18 @@
     spacingElement.rowHeight = 40 + arc4random() % (50);
     spacingElement.cellReuseIdentifier = @"LSpacingElementReuseIdentifier";
     [section addElement:spacingElement];
+}
+
+
+#pragma mark - CustomActionDelegate
+
+
+- (void)element:(LFilterElement *)element didPerformAction:(NSString *)action withParams:(NSDictionary *)params
+{
+    [[[UIAlertView alloc] initWithTitle:nil
+                                message:[NSString stringWithFormat:@"Tapped on element with title: %@", element.title]
+                               delegate:nil cancelButtonTitle:@"Close"
+                      otherButtonTitles:nil] show];
 }
 
 

@@ -16,7 +16,7 @@
 {
     [super viewDidLoad];
     
-    self.title = @"Radio";
+    self.title = @"Multiple Radio";
     
     _filterView.actionDelegate = self;
     
