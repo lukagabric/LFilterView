@@ -1,12 +1,11 @@
-#import "Example4ViewController.h"
+#import "Example5ViewController.h"
 #import "LFilterSection.h"
 #import "LFilterElement.h"
 #import "LSpacingElement.h"
 #import "LTextElement.h"
-#import "Example5ViewController.h"
 
 
-@implementation Example4ViewController
+@implementation Example5ViewController
 
 
 #pragma mark - View
@@ -67,15 +66,6 @@
     spacingElement.rowHeight = 40 + arc4random() % (50);
     spacingElement.cellReuseIdentifier = @"LSpacingElementReuseIdentifier";
     [section addElement:spacingElement];
-}
-
-
-#pragma mark - buttonNextAction
-
-
-- (IBAction)buttonNextAction:(id)sender
-{
-    [self.navigationController pushViewController:[Example5ViewController new] animated:YES];
 }
 
 

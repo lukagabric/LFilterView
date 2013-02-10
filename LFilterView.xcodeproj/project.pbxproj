@@ -15,6 +15,8 @@
 		41381C0D16C79E6400FF8D8F /* LFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381C0A16C79E6400FF8D8F /* LFilterCell.xib */; };
 		41381C0E16C79E6400FF8D8F /* LSpacingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381C0B16C79E6400FF8D8F /* LSpacingCell.xib */; };
 		41381C0F16C79E6400FF8D8F /* LTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381C0C16C79E6400FF8D8F /* LTextCell.xib */; };
+		41BD453416C7B3A00067DAFB /* Example5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD453216C7B3A00067DAFB /* Example5ViewController.m */; };
+		41BD453516C7B3A00067DAFB /* Example5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BD453316C7B3A00067DAFB /* Example5ViewController.xib */; };
 		A115F06016ADD15C0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
 		A115F07416ADD17D0011010E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F07316ADD17D0011010E /* UIKit.framework */; };
 		A115F07516ADD17D0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
@@ -73,6 +75,9 @@
 		41381C0A16C79E6400FF8D8F /* LFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFilterCell.xib; sourceTree = "<group>"; };
 		41381C0B16C79E6400FF8D8F /* LSpacingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSpacingCell.xib; sourceTree = "<group>"; };
 		41381C0C16C79E6400FF8D8F /* LTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTextCell.xib; sourceTree = "<group>"; };
+		41BD453116C7B3A00067DAFB /* Example5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example5ViewController.h; sourceTree = "<group>"; };
+		41BD453216C7B3A00067DAFB /* Example5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example5ViewController.m; sourceTree = "<group>"; };
+		41BD453316C7B3A00067DAFB /* Example5ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example5ViewController.xib; sourceTree = "<group>"; };
 		A115F05C16ADD15C0011010E /* libLFilterView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLFilterView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A115F05F16ADD15C0011010E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A115F07116ADD17D0011010E /* LFilterViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFilterViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,6 +232,9 @@
 				41381BFB16C79B4D00FF8D8F /* Example4ViewController.h */,
 				41381BFC16C79B4D00FF8D8F /* Example4ViewController.m */,
 				41381BFD16C79B4D00FF8D8F /* Example4ViewController.xib */,
+				41BD453116C7B3A00067DAFB /* Example5ViewController.h */,
+				41BD453216C7B3A00067DAFB /* Example5ViewController.m */,
+				41BD453316C7B3A00067DAFB /* Example5ViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -402,6 +410,7 @@
 				41381C0D16C79E6400FF8D8F /* LFilterCell.xib in Resources */,
 				41381C0E16C79E6400FF8D8F /* LSpacingCell.xib in Resources */,
 				41381C0F16C79E6400FF8D8F /* LTextCell.xib in Resources */,
+				41BD453516C7B3A00067DAFB /* Example5ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +441,7 @@
 				A118CF3D16ADE8D90005FB20 /* Example2ViewController.m in Sources */,
 				41381BF916C799B000FF8D8F /* Example3ViewController.m in Sources */,
 				41381BFE16C79B4D00FF8D8F /* Example4ViewController.m in Sources */,
+				41BD453416C7B3A00067DAFB /* Example5ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
