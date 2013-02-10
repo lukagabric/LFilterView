@@ -3,6 +3,7 @@
 #import "LFilterElement.h"
 #import "LSpacingElement.h"
 #import "LTextElement.h"
+#import "Example4ViewController.h"
 
 
 @implementation Example3ViewController
@@ -57,7 +58,7 @@
 
 - (IBAction)buttonNextAction:(id)sender
 {
-    
+    [self.navigationController pushViewController:[Example4ViewController new] animated:YES];
 }
 
 

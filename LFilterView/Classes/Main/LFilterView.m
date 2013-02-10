@@ -244,6 +244,14 @@
 }
 
 
+- (void)didChangeRowHeightForElement:(LFilterElement *)element inSection:(LFilterSection *)section
+{
+    NSIndexPath *changedIndexPath = [NSIndexPath indexPathForRow:[section.elements indexOfObject:element] inSection:[_sections indexOfObject:section]];
+    
+    [_tableViewFilter reloadRowsAtIndexPaths:[NSArray arrayWithObject:changedIndexPath] withRowAnimation:UITableViewRowAnimationNone];
+}
+
+
 #pragma mark - Getters
 
 

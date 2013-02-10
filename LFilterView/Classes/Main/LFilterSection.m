@@ -162,6 +162,12 @@
 }
 
 
+- (void)didChangeRowHeightForElement:(LFilterElement *)element
+{
+    [_parentFilterView didChangeRowHeightForElement:element inSection:self];
+}
+
+
 #pragma mark -
 
 

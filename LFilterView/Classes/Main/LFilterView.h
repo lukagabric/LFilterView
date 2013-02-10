@@ -31,6 +31,7 @@
 - (LFilterSection *)sectionWithKey:(NSString *)key;
 
 - (void)element:(LFilterElement *)element didChangeInSection:(LFilterSection *)section;
+- (void)didChangeRowHeightForElement:(LFilterElement *)element inSection:(LFilterSection *)section;
 
 
 @end

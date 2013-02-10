@@ -53,6 +53,7 @@ typedef enum
 - (void)deselectAllElementsOfRadioGroup:(NSString *)radioGroup;
 
 - (void)elementDidChange:(LFilterElement *)element;
+- (void)didChangeRowHeightForElement:(LFilterElement *)element;
 
 
 @end

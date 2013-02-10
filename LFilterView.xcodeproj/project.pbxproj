@@ -8,9 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		412BACEA16C795920021DCD1 /* LTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BACE916C795920021DCD1 /* LTextElement.m */; };
-		412BACEE16C7961E0021DCD1 /* LTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412BACED16C7961E0021DCD1 /* LTextCell.xib */; };
 		41381BF916C799B000FF8D8F /* Example3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41381BF716C799B000FF8D8F /* Example3ViewController.m */; };
 		41381BFA16C799B000FF8D8F /* Example3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381BF816C799B000FF8D8F /* Example3ViewController.xib */; };
+		41381BFE16C79B4D00FF8D8F /* Example4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41381BFC16C79B4D00FF8D8F /* Example4ViewController.m */; };
+		41381BFF16C79B4D00FF8D8F /* Example4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381BFD16C79B4D00FF8D8F /* Example4ViewController.xib */; };
+		41381C0D16C79E6400FF8D8F /* LFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381C0A16C79E6400FF8D8F /* LFilterCell.xib */; };
+		41381C0E16C79E6400FF8D8F /* LSpacingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381C0B16C79E6400FF8D8F /* LSpacingCell.xib */; };
+		41381C0F16C79E6400FF8D8F /* LTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381C0C16C79E6400FF8D8F /* LTextCell.xib */; };
 		A115F06016ADD15C0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
 		A115F07416ADD17D0011010E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F07316ADD17D0011010E /* UIKit.framework */; };
 		A115F07516ADD17D0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
@@ -22,7 +26,6 @@
 		A115F0C416ADD2E90011010E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F07316ADD17D0011010E /* UIKit.framework */; };
 		A118CF2016ADDB420005FB20 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = A118CF1C16ADDB420005FB20 /* checkmark.png */; };
 		A118CF2116ADDB420005FB20 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A118CF1D16ADDB420005FB20 /* checkmark@2x.png */; };
-		A118CF2216ADDB420005FB20 /* LFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A118CF1F16ADDB420005FB20 /* LFilterCell.xib */; };
 		A118CF2E16ADDE0A0005FB20 /* Example1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A118CF2D16ADDE0A0005FB20 /* Example1ViewController.xib */; };
 		A118CF3D16ADE8D90005FB20 /* Example2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A118CF3B16ADE8D90005FB20 /* Example2ViewController.m */; };
 		A118CF3E16ADE8D90005FB20 /* Example2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A118CF3C16ADE8D90005FB20 /* Example2ViewController.xib */; };
@@ -63,6 +66,13 @@
 		41381BF616C799B000FF8D8F /* Example3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example3ViewController.h; sourceTree = "<group>"; };
 		41381BF716C799B000FF8D8F /* Example3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example3ViewController.m; sourceTree = "<group>"; };
 		41381BF816C799B000FF8D8F /* Example3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example3ViewController.xib; sourceTree = "<group>"; };
+		41381BFB16C79B4D00FF8D8F /* Example4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example4ViewController.h; sourceTree = "<group>"; };
+		41381BFC16C79B4D00FF8D8F /* Example4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example4ViewController.m; sourceTree = "<group>"; };
+		41381BFD16C79B4D00FF8D8F /* Example4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example4ViewController.xib; sourceTree = "<group>"; };
+		41381C0016C79E1E00FF8D8F /* LSpacingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSpacingCell.xib; sourceTree = "<group>"; };
+		41381C0A16C79E6400FF8D8F /* LFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFilterCell.xib; sourceTree = "<group>"; };
+		41381C0B16C79E6400FF8D8F /* LSpacingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSpacingCell.xib; sourceTree = "<group>"; };
+		41381C0C16C79E6400FF8D8F /* LTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTextCell.xib; sourceTree = "<group>"; };
 		A115F05C16ADD15C0011010E /* libLFilterView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLFilterView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A115F05F16ADD15C0011010E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A115F07116ADD17D0011010E /* LFilterViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFilterViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,7 +88,6 @@
 		A115F0A116ADD1F80011010E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A118CF1C16ADDB420005FB20 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
 		A118CF1D16ADDB420005FB20 /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
-		A118CF1F16ADDB420005FB20 /* LFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFilterCell.xib; sourceTree = "<group>"; };
 		A118CF2516ADDB670005FB20 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
 		A118CF2616ADDB670005FB20 /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
 		A118CF2816ADDB670005FB20 /* LFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFilterCell.xib; sourceTree = "<group>"; };
@@ -124,6 +133,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41381C0916C79E6400FF8D8F /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				41381C0A16C79E6400FF8D8F /* LFilterCell.xib */,
+				41381C0B16C79E6400FF8D8F /* LSpacingCell.xib */,
+				41381C0C16C79E6400FF8D8F /* LTextCell.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
 		A115F05116ADD15C0011010E = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +224,9 @@
 				41381BF616C799B000FF8D8F /* Example3ViewController.h */,
 				41381BF716C799B000FF8D8F /* Example3ViewController.m */,
 				41381BF816C799B000FF8D8F /* Example3ViewController.xib */,
+				41381BFB16C79B4D00FF8D8F /* Example4ViewController.h */,
+				41381BFC16C79B4D00FF8D8F /* Example4ViewController.m */,
+				41381BFD16C79B4D00FF8D8F /* Example4ViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -222,8 +244,8 @@
 		A118CF1A16ADDB420005FB20 /* LFilterViewResources */ = {
 			isa = PBXGroup;
 			children = (
+				41381C0916C79E6400FF8D8F /* XIBs */,
 				A118CF1B16ADDB420005FB20 /* Images */,
-				A118CF1E16ADDB420005FB20 /* XIBs */,
 			);
 			name = LFilterViewResources;
 			path = LFilterView/Resources;
@@ -236,14 +258,6 @@
 				A118CF1D16ADDB420005FB20 /* checkmark@2x.png */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		A118CF1E16ADDB420005FB20 /* XIBs */ = {
-			isa = PBXGroup;
-			children = (
-				A118CF1F16ADDB420005FB20 /* LFilterCell.xib */,
-			);
-			path = XIBs;
 			sourceTree = "<group>";
 		};
 		A118CF2316ADDB670005FB20 /* Resources */ = {
@@ -267,6 +281,7 @@
 		A118CF2716ADDB670005FB20 /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
+				41381C0016C79E1E00FF8D8F /* LSpacingCell.xib */,
 				A118CF2816ADDB670005FB20 /* LFilterCell.xib */,
 				412BACED16C7961E0021DCD1 /* LTextCell.xib */,
 			);
@@ -380,11 +395,13 @@
 			files = (
 				A118CF2016ADDB420005FB20 /* checkmark.png in Resources */,
 				A118CF2116ADDB420005FB20 /* checkmark@2x.png in Resources */,
-				A118CF2216ADDB420005FB20 /* LFilterCell.xib in Resources */,
 				A118CF2E16ADDE0A0005FB20 /* Example1ViewController.xib in Resources */,
 				A118CF3E16ADE8D90005FB20 /* Example2ViewController.xib in Resources */,
-				412BACEE16C7961E0021DCD1 /* LTextCell.xib in Resources */,
 				41381BFA16C799B000FF8D8F /* Example3ViewController.xib in Resources */,
+				41381BFF16C79B4D00FF8D8F /* Example4ViewController.xib in Resources */,
+				41381C0D16C79E6400FF8D8F /* LFilterCell.xib in Resources */,
+				41381C0E16C79E6400FF8D8F /* LSpacingCell.xib in Resources */,
+				41381C0F16C79E6400FF8D8F /* LTextCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +431,7 @@
 				A115F0A516ADD1F80011010E /* main.m in Sources */,
 				A118CF3D16ADE8D90005FB20 /* Example2ViewController.m in Sources */,
 				41381BF916C799B000FF8D8F /* Example3ViewController.m in Sources */,
+				41381BFE16C79B4D00FF8D8F /* Example4ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -87,6 +87,14 @@
 }
 
 
+- (void)setRowHeight:(CGFloat)rowHeight
+{
+    _rowHeight = rowHeight;
+    
+    [_parentSection didChangeRowHeightForElement:self];
+}
+
+
 #pragma mark -
 
 
