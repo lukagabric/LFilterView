@@ -8,29 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		412BACEA16C795920021DCD1 /* LTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BACE916C795920021DCD1 /* LTextElement.m */; };
-		41381BF916C799B000FF8D8F /* Example3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41381BF716C799B000FF8D8F /* Example3ViewController.m */; };
-		41381BFA16C799B000FF8D8F /* Example3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381BF816C799B000FF8D8F /* Example3ViewController.xib */; };
-		41381BFE16C79B4D00FF8D8F /* Example4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41381BFC16C79B4D00FF8D8F /* Example4ViewController.m */; };
-		41381BFF16C79B4D00FF8D8F /* Example4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381BFD16C79B4D00FF8D8F /* Example4ViewController.xib */; };
 		41381C0D16C79E6400FF8D8F /* LFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381C0A16C79E6400FF8D8F /* LFilterCell.xib */; };
 		41381C0E16C79E6400FF8D8F /* LSpacingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381C0B16C79E6400FF8D8F /* LSpacingCell.xib */; };
 		41381C0F16C79E6400FF8D8F /* LTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41381C0C16C79E6400FF8D8F /* LTextCell.xib */; };
-		41BD453416C7B3A00067DAFB /* Example5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD453216C7B3A00067DAFB /* Example5ViewController.m */; };
-		41BD453516C7B3A00067DAFB /* Example5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BD453316C7B3A00067DAFB /* Example5ViewController.xib */; };
+		41BD454D16C7B5AC0067DAFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD453916C7B5AC0067DAFB /* AppDelegate.m */; };
+		41BD454E16C7B5AC0067DAFB /* Example1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD453F16C7B5AC0067DAFB /* Example1ViewController.m */; };
+		41BD454F16C7B5AC0067DAFB /* Example1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BD454016C7B5AC0067DAFB /* Example1ViewController.xib */; };
+		41BD455016C7B5AC0067DAFB /* Example2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD454216C7B5AC0067DAFB /* Example2ViewController.m */; };
+		41BD455116C7B5AC0067DAFB /* Example2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BD454316C7B5AC0067DAFB /* Example2ViewController.xib */; };
+		41BD455216C7B5AC0067DAFB /* Example3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD454516C7B5AC0067DAFB /* Example3ViewController.m */; };
+		41BD455316C7B5AC0067DAFB /* Example3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BD454616C7B5AC0067DAFB /* Example3ViewController.xib */; };
+		41BD455416C7B5AC0067DAFB /* Example4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD454816C7B5AC0067DAFB /* Example4ViewController.m */; };
+		41BD455516C7B5AC0067DAFB /* Example4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BD454916C7B5AC0067DAFB /* Example4ViewController.xib */; };
+		41BD455616C7B5AC0067DAFB /* Example5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD454B16C7B5AC0067DAFB /* Example5ViewController.m */; };
+		41BD455716C7B5AC0067DAFB /* Example5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BD454C16C7B5AC0067DAFB /* Example5ViewController.xib */; };
 		A115F06016ADD15C0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
 		A115F07416ADD17D0011010E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F07316ADD17D0011010E /* UIKit.framework */; };
 		A115F07516ADD17D0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
 		A115F07716ADD17D0011010E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F07616ADD17D0011010E /* CoreGraphics.framework */; };
-		A115F0A216ADD1F80011010E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A115F09B16ADD1F80011010E /* AppDelegate.m */; };
-		A115F0A316ADD1F80011010E /* Example1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A115F09D16ADD1F80011010E /* Example1ViewController.m */; };
 		A115F0A516ADD1F80011010E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A115F0A116ADD1F80011010E /* main.m */; };
 		A115F0A616ADD2500011010E /* libLFilterView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05C16ADD15C0011010E /* libLFilterView.a */; };
 		A115F0C416ADD2E90011010E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F07316ADD17D0011010E /* UIKit.framework */; };
 		A118CF2016ADDB420005FB20 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = A118CF1C16ADDB420005FB20 /* checkmark.png */; };
 		A118CF2116ADDB420005FB20 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A118CF1D16ADDB420005FB20 /* checkmark@2x.png */; };
-		A118CF2E16ADDE0A0005FB20 /* Example1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A118CF2D16ADDE0A0005FB20 /* Example1ViewController.xib */; };
-		A118CF3D16ADE8D90005FB20 /* Example2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A118CF3B16ADE8D90005FB20 /* Example2ViewController.m */; };
-		A118CF3E16ADE8D90005FB20 /* Example2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A118CF3C16ADE8D90005FB20 /* Example2ViewController.xib */; };
 		A1DAD69316AEBA1D00036ADD /* LSpacingElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DAD68616AEBA1D00036ADD /* LSpacingElement.m */; };
 		A1DAD69416AEBA1D00036ADD /* LFilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DAD68916AEBA1D00036ADD /* LFilterCell.m */; };
 		A1DAD69516AEBA1D00036ADD /* LFilterElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DAD68B16AEBA1D00036ADD /* LFilterElement.m */; };
@@ -65,29 +65,33 @@
 		412BACE816C795920021DCD1 /* LTextElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTextElement.h; sourceTree = "<group>"; };
 		412BACE916C795920021DCD1 /* LTextElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTextElement.m; sourceTree = "<group>"; };
 		412BACED16C7961E0021DCD1 /* LTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTextCell.xib; sourceTree = "<group>"; };
-		41381BF616C799B000FF8D8F /* Example3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example3ViewController.h; sourceTree = "<group>"; };
-		41381BF716C799B000FF8D8F /* Example3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example3ViewController.m; sourceTree = "<group>"; };
-		41381BF816C799B000FF8D8F /* Example3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example3ViewController.xib; sourceTree = "<group>"; };
-		41381BFB16C79B4D00FF8D8F /* Example4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example4ViewController.h; sourceTree = "<group>"; };
-		41381BFC16C79B4D00FF8D8F /* Example4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example4ViewController.m; sourceTree = "<group>"; };
-		41381BFD16C79B4D00FF8D8F /* Example4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example4ViewController.xib; sourceTree = "<group>"; };
 		41381C0016C79E1E00FF8D8F /* LSpacingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSpacingCell.xib; sourceTree = "<group>"; };
 		41381C0A16C79E6400FF8D8F /* LFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFilterCell.xib; sourceTree = "<group>"; };
 		41381C0B16C79E6400FF8D8F /* LSpacingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSpacingCell.xib; sourceTree = "<group>"; };
 		41381C0C16C79E6400FF8D8F /* LTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTextCell.xib; sourceTree = "<group>"; };
-		41BD453116C7B3A00067DAFB /* Example5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example5ViewController.h; sourceTree = "<group>"; };
-		41BD453216C7B3A00067DAFB /* Example5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example5ViewController.m; sourceTree = "<group>"; };
-		41BD453316C7B3A00067DAFB /* Example5ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example5ViewController.xib; sourceTree = "<group>"; };
+		41BD453816C7B5AC0067DAFB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41BD453916C7B5AC0067DAFB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41BD453E16C7B5AC0067DAFB /* Example1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example1ViewController.h; sourceTree = "<group>"; };
+		41BD453F16C7B5AC0067DAFB /* Example1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example1ViewController.m; sourceTree = "<group>"; };
+		41BD454016C7B5AC0067DAFB /* Example1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example1ViewController.xib; sourceTree = "<group>"; };
+		41BD454116C7B5AC0067DAFB /* Example2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example2ViewController.h; sourceTree = "<group>"; };
+		41BD454216C7B5AC0067DAFB /* Example2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example2ViewController.m; sourceTree = "<group>"; };
+		41BD454316C7B5AC0067DAFB /* Example2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example2ViewController.xib; sourceTree = "<group>"; };
+		41BD454416C7B5AC0067DAFB /* Example3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example3ViewController.h; sourceTree = "<group>"; };
+		41BD454516C7B5AC0067DAFB /* Example3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example3ViewController.m; sourceTree = "<group>"; };
+		41BD454616C7B5AC0067DAFB /* Example3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example3ViewController.xib; sourceTree = "<group>"; };
+		41BD454716C7B5AC0067DAFB /* Example4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example4ViewController.h; sourceTree = "<group>"; };
+		41BD454816C7B5AC0067DAFB /* Example4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example4ViewController.m; sourceTree = "<group>"; };
+		41BD454916C7B5AC0067DAFB /* Example4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example4ViewController.xib; sourceTree = "<group>"; };
+		41BD454A16C7B5AC0067DAFB /* Example5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example5ViewController.h; sourceTree = "<group>"; };
+		41BD454B16C7B5AC0067DAFB /* Example5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example5ViewController.m; sourceTree = "<group>"; };
+		41BD454C16C7B5AC0067DAFB /* Example5ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example5ViewController.xib; sourceTree = "<group>"; };
 		A115F05C16ADD15C0011010E /* libLFilterView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLFilterView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A115F05F16ADD15C0011010E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A115F07116ADD17D0011010E /* LFilterViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFilterViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A115F07316ADD17D0011010E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A115F07616ADD17D0011010E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A115F09716ADD1ED0011010E /* LFilterView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LFilterView-Prefix.pch"; sourceTree = "<group>"; };
-		A115F09A16ADD1F80011010E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A115F09B16ADD1F80011010E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A115F09C16ADD1F80011010E /* Example1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example1ViewController.h; sourceTree = "<group>"; };
-		A115F09D16ADD1F80011010E /* Example1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example1ViewController.m; sourceTree = "<group>"; };
 		A115F09F16ADD1F80011010E /* LFilterViewSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LFilterViewSample-Info.plist"; sourceTree = "<group>"; };
 		A115F0A016ADD1F80011010E /* LFilterViewSample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LFilterViewSample-Prefix.pch"; sourceTree = "<group>"; };
 		A115F0A116ADD1F80011010E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,10 +100,6 @@
 		A118CF2516ADDB670005FB20 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
 		A118CF2616ADDB670005FB20 /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
 		A118CF2816ADDB670005FB20 /* LFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFilterCell.xib; sourceTree = "<group>"; };
-		A118CF2D16ADDE0A0005FB20 /* Example1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example1ViewController.xib; sourceTree = "<group>"; };
-		A118CF3A16ADE8D90005FB20 /* Example2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example2ViewController.h; sourceTree = "<group>"; };
-		A118CF3B16ADE8D90005FB20 /* Example2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example2ViewController.m; sourceTree = "<group>"; };
-		A118CF3C16ADE8D90005FB20 /* Example2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example2ViewController.xib; sourceTree = "<group>"; };
 		A1DAD68516AEBA1D00036ADD /* LSpacingElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSpacingElement.h; sourceTree = "<group>"; };
 		A1DAD68616AEBA1D00036ADD /* LSpacingElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSpacingElement.m; sourceTree = "<group>"; };
 		A1DAD68816AEBA1D00036ADD /* LFilterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFilterCell.h; sourceTree = "<group>"; };
@@ -148,6 +148,70 @@
 			path = XIBs;
 			sourceTree = "<group>";
 		};
+		41BD453616C7B5AC0067DAFB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				41BD453716C7B5AC0067DAFB /* AppDelegate */,
+				41BD453A16C7B5AC0067DAFB /* Custom */,
+				41BD453D16C7B5AC0067DAFB /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		41BD453716C7B5AC0067DAFB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				41BD453816C7B5AC0067DAFB /* AppDelegate.h */,
+				41BD453916C7B5AC0067DAFB /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		41BD453A16C7B5AC0067DAFB /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				41BD453B16C7B5AC0067DAFB /* Cell */,
+				41BD453C16C7B5AC0067DAFB /* Element */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		41BD453B16C7B5AC0067DAFB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		41BD453C16C7B5AC0067DAFB /* Element */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Element;
+			sourceTree = "<group>";
+		};
+		41BD453D16C7B5AC0067DAFB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				41BD453E16C7B5AC0067DAFB /* Example1ViewController.h */,
+				41BD453F16C7B5AC0067DAFB /* Example1ViewController.m */,
+				41BD454016C7B5AC0067DAFB /* Example1ViewController.xib */,
+				41BD454116C7B5AC0067DAFB /* Example2ViewController.h */,
+				41BD454216C7B5AC0067DAFB /* Example2ViewController.m */,
+				41BD454316C7B5AC0067DAFB /* Example2ViewController.xib */,
+				41BD454416C7B5AC0067DAFB /* Example3ViewController.h */,
+				41BD454516C7B5AC0067DAFB /* Example3ViewController.m */,
+				41BD454616C7B5AC0067DAFB /* Example3ViewController.xib */,
+				41BD454716C7B5AC0067DAFB /* Example4ViewController.h */,
+				41BD454816C7B5AC0067DAFB /* Example4ViewController.m */,
+				41BD454916C7B5AC0067DAFB /* Example4ViewController.xib */,
+				41BD454A16C7B5AC0067DAFB /* Example5ViewController.h */,
+				41BD454B16C7B5AC0067DAFB /* Example5ViewController.m */,
+				41BD454C16C7B5AC0067DAFB /* Example5ViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		A115F05116ADD15C0011010E = {
 			isa = PBXGroup;
 			children = (
@@ -190,7 +254,7 @@
 		A115F07816ADD17D0011010E /* LFilterViewSample */ = {
 			isa = PBXGroup;
 			children = (
-				A115F09916ADD1F80011010E /* Classes */,
+				41BD453616C7B5AC0067DAFB /* Classes */,
 				A115F09E16ADD1F80011010E /* Supporting Files */,
 				A118CF1A16ADDB420005FB20 /* LFilterViewResources */,
 			);
@@ -213,30 +277,6 @@
 				A115F09716ADD1ED0011010E /* LFilterView-Prefix.pch */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A115F09916ADD1F80011010E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A115F09A16ADD1F80011010E /* AppDelegate.h */,
-				A115F09B16ADD1F80011010E /* AppDelegate.m */,
-				A115F09C16ADD1F80011010E /* Example1ViewController.h */,
-				A115F09D16ADD1F80011010E /* Example1ViewController.m */,
-				A118CF2D16ADDE0A0005FB20 /* Example1ViewController.xib */,
-				A118CF3A16ADE8D90005FB20 /* Example2ViewController.h */,
-				A118CF3B16ADE8D90005FB20 /* Example2ViewController.m */,
-				A118CF3C16ADE8D90005FB20 /* Example2ViewController.xib */,
-				41381BF616C799B000FF8D8F /* Example3ViewController.h */,
-				41381BF716C799B000FF8D8F /* Example3ViewController.m */,
-				41381BF816C799B000FF8D8F /* Example3ViewController.xib */,
-				41381BFB16C79B4D00FF8D8F /* Example4ViewController.h */,
-				41381BFC16C79B4D00FF8D8F /* Example4ViewController.m */,
-				41381BFD16C79B4D00FF8D8F /* Example4ViewController.xib */,
-				41BD453116C7B3A00067DAFB /* Example5ViewController.h */,
-				41BD453216C7B3A00067DAFB /* Example5ViewController.m */,
-				41BD453316C7B3A00067DAFB /* Example5ViewController.xib */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		A115F09E16ADD1F80011010E /* Supporting Files */ = {
@@ -403,14 +443,14 @@
 			files = (
 				A118CF2016ADDB420005FB20 /* checkmark.png in Resources */,
 				A118CF2116ADDB420005FB20 /* checkmark@2x.png in Resources */,
-				A118CF2E16ADDE0A0005FB20 /* Example1ViewController.xib in Resources */,
-				A118CF3E16ADE8D90005FB20 /* Example2ViewController.xib in Resources */,
-				41381BFA16C799B000FF8D8F /* Example3ViewController.xib in Resources */,
-				41381BFF16C79B4D00FF8D8F /* Example4ViewController.xib in Resources */,
 				41381C0D16C79E6400FF8D8F /* LFilterCell.xib in Resources */,
 				41381C0E16C79E6400FF8D8F /* LSpacingCell.xib in Resources */,
 				41381C0F16C79E6400FF8D8F /* LTextCell.xib in Resources */,
-				41BD453516C7B3A00067DAFB /* Example5ViewController.xib in Resources */,
+				41BD454F16C7B5AC0067DAFB /* Example1ViewController.xib in Resources */,
+				41BD455116C7B5AC0067DAFB /* Example2ViewController.xib in Resources */,
+				41BD455316C7B5AC0067DAFB /* Example3ViewController.xib in Resources */,
+				41BD455516C7B5AC0067DAFB /* Example4ViewController.xib in Resources */,
+				41BD455716C7B5AC0067DAFB /* Example5ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,13 +475,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A115F0A216ADD1F80011010E /* AppDelegate.m in Sources */,
-				A115F0A316ADD1F80011010E /* Example1ViewController.m in Sources */,
 				A115F0A516ADD1F80011010E /* main.m in Sources */,
-				A118CF3D16ADE8D90005FB20 /* Example2ViewController.m in Sources */,
-				41381BF916C799B000FF8D8F /* Example3ViewController.m in Sources */,
-				41381BFE16C79B4D00FF8D8F /* Example4ViewController.m in Sources */,
-				41BD453416C7B3A00067DAFB /* Example5ViewController.m in Sources */,
+				41BD454D16C7B5AC0067DAFB /* AppDelegate.m in Sources */,
+				41BD454E16C7B5AC0067DAFB /* Example1ViewController.m in Sources */,
+				41BD455016C7B5AC0067DAFB /* Example2ViewController.m in Sources */,
+				41BD455216C7B5AC0067DAFB /* Example3ViewController.m in Sources */,
+				41BD455416C7B5AC0067DAFB /* Example4ViewController.m in Sources */,
+				41BD455616C7B5AC0067DAFB /* Example5ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
