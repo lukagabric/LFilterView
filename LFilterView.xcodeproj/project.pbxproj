@@ -22,6 +22,8 @@
 		41BD455516C7B5AC0067DAFB /* Example4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BD454916C7B5AC0067DAFB /* Example4ViewController.xib */; };
 		41BD455616C7B5AC0067DAFB /* Example5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD454B16C7B5AC0067DAFB /* Example5ViewController.m */; };
 		41BD455716C7B5AC0067DAFB /* Example5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BD454C16C7B5AC0067DAFB /* Example5ViewController.xib */; };
+		41E2332216C7B619006F69C5 /* MyCustomElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E2332116C7B619006F69C5 /* MyCustomElement.m */; };
+		41E2332516C7B62C006F69C5 /* MyCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E2332416C7B62C006F69C5 /* MyCustomCell.m */; };
 		A115F06016ADD15C0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
 		A115F07416ADD17D0011010E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F07316ADD17D0011010E /* UIKit.framework */; };
 		A115F07516ADD17D0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
@@ -86,6 +88,10 @@
 		41BD454A16C7B5AC0067DAFB /* Example5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example5ViewController.h; sourceTree = "<group>"; };
 		41BD454B16C7B5AC0067DAFB /* Example5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example5ViewController.m; sourceTree = "<group>"; };
 		41BD454C16C7B5AC0067DAFB /* Example5ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example5ViewController.xib; sourceTree = "<group>"; };
+		41E2332016C7B619006F69C5 /* MyCustomElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomElement.h; sourceTree = "<group>"; };
+		41E2332116C7B619006F69C5 /* MyCustomElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomElement.m; sourceTree = "<group>"; };
+		41E2332316C7B62C006F69C5 /* MyCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomCell.h; sourceTree = "<group>"; };
+		41E2332416C7B62C006F69C5 /* MyCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomCell.m; sourceTree = "<group>"; };
 		A115F05C16ADD15C0011010E /* libLFilterView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLFilterView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A115F05F16ADD15C0011010E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A115F07116ADD17D0011010E /* LFilterViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFilterViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,6 +185,8 @@
 		41BD453B16C7B5AC0067DAFB /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				41E2332316C7B62C006F69C5 /* MyCustomCell.h */,
+				41E2332416C7B62C006F69C5 /* MyCustomCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -186,6 +194,8 @@
 		41BD453C16C7B5AC0067DAFB /* Element */ = {
 			isa = PBXGroup;
 			children = (
+				41E2332016C7B619006F69C5 /* MyCustomElement.h */,
+				41E2332116C7B619006F69C5 /* MyCustomElement.m */,
 			);
 			path = Element;
 			sourceTree = "<group>";
@@ -482,6 +492,8 @@
 				41BD455216C7B5AC0067DAFB /* Example3ViewController.m in Sources */,
 				41BD455416C7B5AC0067DAFB /* Example4ViewController.m in Sources */,
 				41BD455616C7B5AC0067DAFB /* Example5ViewController.m in Sources */,
+				41E2332216C7B619006F69C5 /* MyCustomElement.m in Sources */,
+				41E2332516C7B62C006F69C5 /* MyCustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
