@@ -16,7 +16,7 @@
 {
     [super viewDidLoad];
     
-    self.title = @"Example 2";
+    self.title = @"Text & Spacing";
     
     _filterView.actionDelegate = self;
     

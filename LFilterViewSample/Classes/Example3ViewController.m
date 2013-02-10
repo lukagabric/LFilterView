@@ -15,11 +15,12 @@
 {
     [super viewDidLoad];
     
-    self.title = @"Example 3";
+    self.title = @"Radio";
     
     _filterView.actionDelegate = self;
     
     LFilterSection *section = [LFilterSection new];
+    section.sectionType = LSectionTypeRadio;
     
     LTextElement *textElement = [LTextElement new];
     textElement.title = @"Text element";

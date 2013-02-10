@@ -14,7 +14,7 @@
 {
     [super viewDidLoad];
     
-    self.title = @"Example 1";
+    self.title = @"Checkbox";
     
     _filterView.actionDelegate = self;
     
