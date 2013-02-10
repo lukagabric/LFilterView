@@ -24,6 +24,7 @@
 		41BD455716C7B5AC0067DAFB /* Example5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BD454C16C7B5AC0067DAFB /* Example5ViewController.xib */; };
 		41E2332216C7B619006F69C5 /* MyCustomElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E2332116C7B619006F69C5 /* MyCustomElement.m */; };
 		41E2332516C7B62C006F69C5 /* MyCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E2332416C7B62C006F69C5 /* MyCustomCell.m */; };
+		41E2332716C7B701006F69C5 /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41E2332616C7B701006F69C5 /* MyCustomCell.xib */; };
 		A115F06016ADD15C0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
 		A115F07416ADD17D0011010E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F07316ADD17D0011010E /* UIKit.framework */; };
 		A115F07516ADD17D0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
@@ -92,6 +93,7 @@
 		41E2332116C7B619006F69C5 /* MyCustomElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomElement.m; sourceTree = "<group>"; };
 		41E2332316C7B62C006F69C5 /* MyCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomCell.h; sourceTree = "<group>"; };
 		41E2332416C7B62C006F69C5 /* MyCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomCell.m; sourceTree = "<group>"; };
+		41E2332616C7B701006F69C5 /* MyCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
 		A115F05C16ADD15C0011010E /* libLFilterView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLFilterView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A115F05F16ADD15C0011010E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A115F07116ADD17D0011010E /* LFilterViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFilterViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +189,7 @@
 			children = (
 				41E2332316C7B62C006F69C5 /* MyCustomCell.h */,
 				41E2332416C7B62C006F69C5 /* MyCustomCell.m */,
+				41E2332616C7B701006F69C5 /* MyCustomCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				41BD455316C7B5AC0067DAFB /* Example3ViewController.xib in Resources */,
 				41BD455516C7B5AC0067DAFB /* Example4ViewController.xib in Resources */,
 				41BD455716C7B5AC0067DAFB /* Example5ViewController.xib in Resources */,
+				41E2332716C7B701006F69C5 /* MyCustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
