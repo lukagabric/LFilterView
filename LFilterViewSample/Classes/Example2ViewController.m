@@ -2,6 +2,7 @@
 #import "LFilterSection.h"
 #import "LFilterElement.h"
 #import "LSpacingElement.h"
+#import "LTextElement.h"
 
 
 @implementation Example2ViewController
@@ -19,6 +20,10 @@
     _filterView.actionDelegate = self;
     
     LFilterSection *section = [LFilterSection new];
+    
+    LTextElement *textElement = [LTextElement new];
+    textElement.title = @"Text element";
+    [section addElement:textElement];
     
     for (int i = 1; i <= 10; i++)
     {
