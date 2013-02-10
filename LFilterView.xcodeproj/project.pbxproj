@@ -72,6 +72,7 @@
 		41381C0A16C79E6400FF8D8F /* LFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFilterCell.xib; sourceTree = "<group>"; };
 		41381C0B16C79E6400FF8D8F /* LSpacingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSpacingCell.xib; sourceTree = "<group>"; };
 		41381C0C16C79E6400FF8D8F /* LTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTextCell.xib; sourceTree = "<group>"; };
+		419684CF16C7BE7D00CD23E7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		41BD453816C7B5AC0067DAFB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41BD453916C7B5AC0067DAFB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		41BD453E16C7B5AC0067DAFB /* Example1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example1ViewController.h; sourceTree = "<group>"; };
@@ -228,6 +229,7 @@
 		A115F05116ADD15C0011010E = {
 			isa = PBXGroup;
 			children = (
+				419684CF16C7BE7D00CD23E7 /* README.md */,
 				A115F06116ADD15C0011010E /* LFilterView */,
 				A115F07816ADD17D0011010E /* LFilterViewSample */,
 				A115F05E16ADD15C0011010E /* Frameworks */,
