@@ -1,0 +1,4 @@
+@interface SeparatorImageView : UIImageView
+
+
+@end

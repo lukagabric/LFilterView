@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A115F06016ADD15C0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
+		A115F07416ADD17D0011010E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F07316ADD17D0011010E /* UIKit.framework */; };
+		A115F07516ADD17D0011010E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05F16ADD15C0011010E /* Foundation.framework */; };
+		A115F07716ADD17D0011010E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F07616ADD17D0011010E /* CoreGraphics.framework */; };
+		A115F0A216ADD1F80011010E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A115F09B16ADD1F80011010E /* AppDelegate.m */; };
+		A115F0A316ADD1F80011010E /* Example1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A115F09D16ADD1F80011010E /* Example1ViewController.m */; };
+		A115F0A516ADD1F80011010E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A115F0A116ADD1F80011010E /* main.m */; };
+		A115F0A616ADD2500011010E /* libLFilterView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F05C16ADD15C0011010E /* libLFilterView.a */; };
+		A115F0C416ADD2E90011010E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115F07316ADD17D0011010E /* UIKit.framework */; };
+		A118CF2016ADDB420005FB20 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = A118CF1C16ADDB420005FB20 /* checkmark.png */; };
+		A118CF2116ADDB420005FB20 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A118CF1D16ADDB420005FB20 /* checkmark@2x.png */; };
+		A118CF2216ADDB420005FB20 /* LFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A118CF1F16ADDB420005FB20 /* LFilterCell.xib */; };
+		A118CF2E16ADDE0A0005FB20 /* Example1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A118CF2D16ADDE0A0005FB20 /* Example1ViewController.xib */; };
+		A118CF3D16ADE8D90005FB20 /* Example2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A118CF3B16ADE8D90005FB20 /* Example2ViewController.m */; };
+		A118CF3E16ADE8D90005FB20 /* Example2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A118CF3C16ADE8D90005FB20 /* Example2ViewController.xib */; };
+		A1DAD69316AEBA1D00036ADD /* LSpacingElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DAD68616AEBA1D00036ADD /* LSpacingElement.m */; };
+		A1DAD69416AEBA1D00036ADD /* LFilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DAD68916AEBA1D00036ADD /* LFilterCell.m */; };
+		A1DAD69516AEBA1D00036ADD /* LFilterElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DAD68B16AEBA1D00036ADD /* LFilterElement.m */; };
+		A1DAD69616AEBA1D00036ADD /* LFilterSection.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DAD68D16AEBA1D00036ADD /* LFilterSection.m */; };
+		A1DAD69716AEBA1D00036ADD /* LFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DAD68F16AEBA1D00036ADD /* LFilterView.m */; };
+		A1DAD69816AEBA1D00036ADD /* SeparatorImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DAD69216AEBA1D00036ADD /* SeparatorImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A115F0A716ADD2620011010E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A115F05316ADD15C0011010E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A115F05B16ADD15C0011010E;
+			remoteInfo = LFilterView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A115F05A16ADD15C0011010E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A115F05C16ADD15C0011010E /* libLFilterView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLFilterView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A115F05F16ADD15C0011010E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A115F07116ADD17D0011010E /* LFilterViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFilterViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A115F07316ADD17D0011010E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A115F07616ADD17D0011010E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A115F09716ADD1ED0011010E /* LFilterView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LFilterView-Prefix.pch"; sourceTree = "<group>"; };
+		A115F09A16ADD1F80011010E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A115F09B16ADD1F80011010E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A115F09C16ADD1F80011010E /* Example1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example1ViewController.h; sourceTree = "<group>"; };
+		A115F09D16ADD1F80011010E /* Example1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example1ViewController.m; sourceTree = "<group>"; };
+		A115F09F16ADD1F80011010E /* LFilterViewSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LFilterViewSample-Info.plist"; sourceTree = "<group>"; };
+		A115F0A016ADD1F80011010E /* LFilterViewSample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LFilterViewSample-Prefix.pch"; sourceTree = "<group>"; };
+		A115F0A116ADD1F80011010E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A118CF1C16ADDB420005FB20 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		A118CF1D16ADDB420005FB20 /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		A118CF1F16ADDB420005FB20 /* LFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFilterCell.xib; sourceTree = "<group>"; };
+		A118CF2516ADDB670005FB20 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		A118CF2616ADDB670005FB20 /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		A118CF2816ADDB670005FB20 /* LFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFilterCell.xib; sourceTree = "<group>"; };
+		A118CF2D16ADDE0A0005FB20 /* Example1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example1ViewController.xib; sourceTree = "<group>"; };
+		A118CF3A16ADE8D90005FB20 /* Example2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example2ViewController.h; sourceTree = "<group>"; };
+		A118CF3B16ADE8D90005FB20 /* Example2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example2ViewController.m; sourceTree = "<group>"; };
+		A118CF3C16ADE8D90005FB20 /* Example2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example2ViewController.xib; sourceTree = "<group>"; };
+		A1DAD68516AEBA1D00036ADD /* LSpacingElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSpacingElement.h; sourceTree = "<group>"; };
+		A1DAD68616AEBA1D00036ADD /* LSpacingElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSpacingElement.m; sourceTree = "<group>"; };
+		A1DAD68816AEBA1D00036ADD /* LFilterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFilterCell.h; sourceTree = "<group>"; };
+		A1DAD68916AEBA1D00036ADD /* LFilterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFilterCell.m; sourceTree = "<group>"; };
+		A1DAD68A16AEBA1D00036ADD /* LFilterElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFilterElement.h; sourceTree = "<group>"; };
+		A1DAD68B16AEBA1D00036ADD /* LFilterElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFilterElement.m; sourceTree = "<group>"; };
+		A1DAD68C16AEBA1D00036ADD /* LFilterSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFilterSection.h; sourceTree = "<group>"; };
+		A1DAD68D16AEBA1D00036ADD /* LFilterSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFilterSection.m; sourceTree = "<group>"; };
+		A1DAD68E16AEBA1D00036ADD /* LFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFilterView.h; sourceTree = "<group>"; };
+		A1DAD68F16AEBA1D00036ADD /* LFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFilterView.m; sourceTree = "<group>"; };
+		A1DAD69116AEBA1D00036ADD /* SeparatorImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorImageView.h; sourceTree = "<group>"; };
+		A1DAD69216AEBA1D00036ADD /* SeparatorImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A115F05916ADD15C0011010E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A115F0C416ADD2E90011010E /* UIKit.framework in Frameworks */,
+				A115F06016ADD15C0011010E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A115F06E16ADD17D0011010E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A115F0A616ADD2500011010E /* libLFilterView.a in Frameworks */,
+				A115F07416ADD17D0011010E /* UIKit.framework in Frameworks */,
+				A115F07516ADD17D0011010E /* Foundation.framework in Frameworks */,
+				A115F07716ADD17D0011010E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A115F05116ADD15C0011010E = {
+			isa = PBXGroup;
+			children = (
+				A115F06116ADD15C0011010E /* LFilterView */,
+				A115F07816ADD17D0011010E /* LFilterViewSample */,
+				A115F05E16ADD15C0011010E /* Frameworks */,
+				A115F05D16ADD15C0011010E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A115F05D16ADD15C0011010E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A115F05C16ADD15C0011010E /* libLFilterView.a */,
+				A115F07116ADD17D0011010E /* LFilterViewSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A115F05E16ADD15C0011010E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A115F05F16ADD15C0011010E /* Foundation.framework */,
+				A115F07316ADD17D0011010E /* UIKit.framework */,
+				A115F07616ADD17D0011010E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A115F06116ADD15C0011010E /* LFilterView */ = {
+			isa = PBXGroup;
+			children = (
+				A115F09316ADD1ED0011010E /* Classes */,
+				A115F09616ADD1ED0011010E /* Supporting Files */,
+				A118CF2316ADDB670005FB20 /* Resources */,
+			);
+			path = LFilterView;
+			sourceTree = "<group>";
+		};
+		A115F07816ADD17D0011010E /* LFilterViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				A115F09916ADD1F80011010E /* Classes */,
+				A115F09E16ADD1F80011010E /* Supporting Files */,
+				A118CF1A16ADDB420005FB20 /* LFilterViewResources */,
+			);
+			path = LFilterViewSample;
+			sourceTree = "<group>";
+		};
+		A115F09316ADD1ED0011010E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1DAD68716AEBA1D00036ADD /* Main */,
+				A1DAD68416AEBA1D00036ADD /* Additional */,
+				A1DAD69016AEBA1D00036ADD /* Separator */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A115F09616ADD1ED0011010E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A115F09716ADD1ED0011010E /* LFilterView-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A115F09916ADD1F80011010E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A115F09A16ADD1F80011010E /* AppDelegate.h */,
+				A115F09B16ADD1F80011010E /* AppDelegate.m */,
+				A115F09C16ADD1F80011010E /* Example1ViewController.h */,
+				A115F09D16ADD1F80011010E /* Example1ViewController.m */,
+				A118CF2D16ADDE0A0005FB20 /* Example1ViewController.xib */,
+				A118CF3A16ADE8D90005FB20 /* Example2ViewController.h */,
+				A118CF3B16ADE8D90005FB20 /* Example2ViewController.m */,
+				A118CF3C16ADE8D90005FB20 /* Example2ViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A115F09E16ADD1F80011010E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A115F09F16ADD1F80011010E /* LFilterViewSample-Info.plist */,
+				A115F0A016ADD1F80011010E /* LFilterViewSample-Prefix.pch */,
+				A115F0A116ADD1F80011010E /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A118CF1A16ADDB420005FB20 /* LFilterViewResources */ = {
+			isa = PBXGroup;
+			children = (
+				A118CF1B16ADDB420005FB20 /* Images */,
+				A118CF1E16ADDB420005FB20 /* XIBs */,
+			);
+			name = LFilterViewResources;
+			path = LFilterView/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		A118CF1B16ADDB420005FB20 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A118CF1C16ADDB420005FB20 /* checkmark.png */,
+				A118CF1D16ADDB420005FB20 /* checkmark@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A118CF1E16ADDB420005FB20 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				A118CF1F16ADDB420005FB20 /* LFilterCell.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		A118CF2316ADDB670005FB20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A118CF2416ADDB670005FB20 /* Images */,
+				A118CF2716ADDB670005FB20 /* XIBs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A118CF2416ADDB670005FB20 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A118CF2516ADDB670005FB20 /* checkmark.png */,
+				A118CF2616ADDB670005FB20 /* checkmark@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A118CF2716ADDB670005FB20 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				A118CF2816ADDB670005FB20 /* LFilterCell.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		A1DAD68416AEBA1D00036ADD /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				A1DAD68516AEBA1D00036ADD /* LSpacingElement.h */,
+				A1DAD68616AEBA1D00036ADD /* LSpacingElement.m */,
+			);
+			path = Additional;
+			sourceTree = "<group>";
+		};
+		A1DAD68716AEBA1D00036ADD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A1DAD68816AEBA1D00036ADD /* LFilterCell.h */,
+				A1DAD68916AEBA1D00036ADD /* LFilterCell.m */,
+				A1DAD68A16AEBA1D00036ADD /* LFilterElement.h */,
+				A1DAD68B16AEBA1D00036ADD /* LFilterElement.m */,
+				A1DAD68C16AEBA1D00036ADD /* LFilterSection.h */,
+				A1DAD68D16AEBA1D00036ADD /* LFilterSection.m */,
+				A1DAD68E16AEBA1D00036ADD /* LFilterView.h */,
+				A1DAD68F16AEBA1D00036ADD /* LFilterView.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A1DAD69016AEBA1D00036ADD /* Separator */ = {
+			isa = PBXGroup;
+			children = (
+				A1DAD69116AEBA1D00036ADD /* SeparatorImageView.h */,
+				A1DAD69216AEBA1D00036ADD /* SeparatorImageView.m */,
+			);
+			path = Separator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A115F05B16ADD15C0011010E /* LFilterView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A115F06A16ADD15C0011010E /* Build configuration list for PBXNativeTarget "LFilterView" */;
+			buildPhases = (
+				A115F05816ADD15C0011010E /* Sources */,
+				A115F05916ADD15C0011010E /* Frameworks */,
+				A115F05A16ADD15C0011010E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFilterView;
+			productName = LFilterView;
+			productReference = A115F05C16ADD15C0011010E /* libLFilterView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A115F07016ADD17D0011010E /* LFilterViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A115F09016ADD17D0011010E /* Build configuration list for PBXNativeTarget "LFilterViewSample" */;
+			buildPhases = (
+				A115F06D16ADD17D0011010E /* Sources */,
+				A115F06E16ADD17D0011010E /* Frameworks */,
+				A115F06F16ADD17D0011010E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A115F0A816ADD2620011010E /* PBXTargetDependency */,
+			);
+			name = LFilterViewSample;
+			productName = LFilterViewSample;
+			productReference = A115F07116ADD17D0011010E /* LFilterViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A115F05316ADD15C0011010E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Luka Gabric";
+			};
+			buildConfigurationList = A115F05616ADD15C0011010E /* Build configuration list for PBXProject "LFilterView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A115F05116ADD15C0011010E;
+			productRefGroup = A115F05D16ADD15C0011010E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A115F05B16ADD15C0011010E /* LFilterView */,
+				A115F07016ADD17D0011010E /* LFilterViewSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A115F06F16ADD17D0011010E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A118CF2016ADDB420005FB20 /* checkmark.png in Resources */,
+				A118CF2116ADDB420005FB20 /* checkmark@2x.png in Resources */,
+				A118CF2216ADDB420005FB20 /* LFilterCell.xib in Resources */,
+				A118CF2E16ADDE0A0005FB20 /* Example1ViewController.xib in Resources */,
+				A118CF3E16ADE8D90005FB20 /* Example2ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A115F05816ADD15C0011010E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DAD69316AEBA1D00036ADD /* LSpacingElement.m in Sources */,
+				A1DAD69416AEBA1D00036ADD /* LFilterCell.m in Sources */,
+				A1DAD69516AEBA1D00036ADD /* LFilterElement.m in Sources */,
+				A1DAD69616AEBA1D00036ADD /* LFilterSection.m in Sources */,
+				A1DAD69716AEBA1D00036ADD /* LFilterView.m in Sources */,
+				A1DAD69816AEBA1D00036ADD /* SeparatorImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A115F06D16ADD17D0011010E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A115F0A216ADD1F80011010E /* AppDelegate.m in Sources */,
+				A115F0A316ADD1F80011010E /* Example1ViewController.m in Sources */,
+				A115F0A516ADD1F80011010E /* main.m in Sources */,
+				A118CF3D16ADE8D90005FB20 /* Example2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A115F0A816ADD2620011010E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A115F05B16ADD15C0011010E /* LFilterView */;
+			targetProxy = A115F0A716ADD2620011010E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A115F06816ADD15C0011010E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A115F06916ADD15C0011010E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A115F06B16ADD15C0011010E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LFilterView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LFilterView/Supporting Files/LFilterView-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A115F06C16ADD15C0011010E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LFilterView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LFilterView/Supporting Files/LFilterView-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A115F09116ADD17D0011010E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LFilterViewSample/Supporting Files/LFilterViewSample-Prefix.pch";
+				INFOPLIST_FILE = "LFilterViewSample/Supporting Files/LFilterViewSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A115F09216ADD17D0011010E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LFilterViewSample/Supporting Files/LFilterViewSample-Prefix.pch";
+				INFOPLIST_FILE = "LFilterViewSample/Supporting Files/LFilterViewSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A115F05616ADD15C0011010E /* Build configuration list for PBXProject "LFilterView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A115F06816ADD15C0011010E /* Debug */,
+				A115F06916ADD15C0011010E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A115F06A16ADD15C0011010E /* Build configuration list for PBXNativeTarget "LFilterView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A115F06B16ADD15C0011010E /* Debug */,
+				A115F06C16ADD15C0011010E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A115F09016ADD17D0011010E /* Build configuration list for PBXNativeTarget "LFilterViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A115F09116ADD17D0011010E /* Debug */,
+				A115F09216ADD17D0011010E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A115F05316ADD15C0011010E /* Project object */;
+}
