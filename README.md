@@ -13,6 +13,43 @@ Examples
 --------
 (for more examples check the LFilterViewSample)
 
+Example 1
+=========
+
+    LFilterSection *section = [LFilterSection new];
+    
+    for (int i = 1; i <= 15; i++)
+    {
+        LFilterElement *element = [LFilterElement new];
+        element.title = [NSString stringWithFormat:@"Option %d", i];
+        element.cellReuseIdentifier = @"LFilterCellReuseIdentifier";
+        [section addElement:element];
+    }
+    
+    [_filterView addSection:section];
+
+Example 2
+=========
+
+    LFilterSection *section = [LFilterSection new];
+
+    LTextElement *textElement = [LTextElement new];
+    textElement.title = @"Radio group";
+    [section addElement:textElement];
+    
+    LSpacingElement *spacingElement = [LSpacingElement new];
+    spacingElement.rowHeight = 40;
+    [section addElement:spacingElement];
+
+    for (int i = 1; i <= 15; i++)
+    {
+        LFilterElement *element = [LFilterElement new];
+        element.title = [NSString stringWithFormat:@"Option %d", i];
+        element.cellReuseIdentifier = @"LFilterCellReuseIdentifier";
+        [section addElement:element];
+    }
+    
+    [_filterView addSection:section];
 
 
 Integrating into your project as static library
