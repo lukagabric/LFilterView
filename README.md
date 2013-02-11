@@ -10,9 +10,9 @@ Screenshots
 
 Classes overview
 ----------------
-LFilterView - main view
-LFilterElement - item data - title, subtitle, etc.
-LFilterCell - item UI - binds data from LFilterElement
+- **LFilterView** - main view
+- **LFilterElement** - item data - title, subtitle, etc.
+- **LFilterCell** - item UI - binds data from LFilterElement
 
 Example 1
 ---------
