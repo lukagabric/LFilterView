@@ -67,5 +67,5 @@ Integrating into your project as static library
 CocoaPods
 ---------
 ```
-pod 'LFilterView', :git => 'https://github.com/DZamataev/LFilterView.git', :branch => 'master'
+pod 'LFilterView', :git => 'https://github.com/lukagabric/LFilterView.git', :branch => 'master'
 ```
