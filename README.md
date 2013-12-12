@@ -63,3 +63,9 @@ Integrating into your project as static library
 4. add the relative path to the LFilterView headers in your "User Header Search Path" Build Setting
 5. add -ObjC and -all_load to Other Linker Flags in your target's build settings
 6. add LFilterView Resources to your project ../LFilterView/Resources
+
+CocoaPods
+---------
+```
+pod 'LFilterView', :git => 'https://github.com/DZamataev/LFilterView.git', :branch => 'master'
+```
