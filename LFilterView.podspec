@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     c.resources = 'LFilterView/Resources/XIBs/*', 'LFilterView/Resources/Images/*'
   end
   
-  s.subspec 'Cemo' do |d|
+  s.subspec 'Demo' do |d|
     d.requires_arc = true
     d.source_files = 'LFilterViewSample/Classes/AppDelegate/*.{h,m}', 'LFilterViewSample/Classes/Custom/Element/*.{h,m}', 'LFilterViewSample/Classes/Custom/Cell/*.{h,m}', 'LFilterViewSample/Classes/Custom/ViewController/*.{h,m}', 'LFilterViewSample/Supporting Files/*.{h,m}'
     d.preserve_paths = "LFilterView.xcodeproj"
