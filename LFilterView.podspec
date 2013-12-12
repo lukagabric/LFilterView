@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
 
   s.subspec 'core' do |c|
     c.requires_arc = true
-    c.source_files = 'LFilterView/Classes/**', 'LFilterView/Supporting Files/**'
-    c.resources = 'LFilterView/Resources/**'
+    c.source_files = 'LFilterView/Classes/*', 'LFilterView/Supporting Files/*'
+    c.resources = 'LFilterView/Resources/*'
   end
   
   s.subspec 'demo' do |d|
     d.requires_arc = true
-    d.source_files = 'LFilterViewSample/Classes/**', 'LFilterViewSample/Supporting Files/**'
+    d.source_files = 'LFilterViewSample/Classes/*', 'LFilterViewSample/Supporting Files/*'
     d.preserve_paths = "LFilterView.xcodeproj"
     d.dependency 'DKNavbarBackButton/core'
   end
