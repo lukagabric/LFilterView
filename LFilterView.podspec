@@ -12,19 +12,19 @@ Pod::Spec.new do |s|
         
   s.ios.deployment_target = '5.0'
     
-  s.default_subspec = 'core'
+  s.default_subspec = 'Core'
 
-  s.subspec 'core' do |c|
+  s.subspec 'Core' do |c|
     c.requires_arc = true
-    c.source_files = 'LFilterView/Classes/*.{h,m}', 'LFilterView/Supporting Files/*.{h,m}'
-    c.resources = 'LFilterView/Resources/*'
+    c.source_files = 'LFilterView/Classes/Additional/*.{h,m}', 'LFilterView/Classes/Main/*.{h,m}', 'LFilterView/Classes/Separator/*.{h,m}', 'LFilterView/Supporting Files/*.{h,m}'
+    c.resources = 'LFilterView/Resources/XIBs/*', 'LFilterView/Resources/Images/*'
   end
   
-  s.subspec 'demo' do |d|
+  s.subspec 'Cemo' do |d|
     d.requires_arc = true
-    d.source_files = 'LFilterViewSample/Classes/*.{h,m}', 'LFilterViewSample/Supporting Files/*.{h,m}'
+    d.source_files = 'LFilterViewSample/Classes/AppDelegate/*.{h,m}', 'LFilterViewSample/Classes/Custom/Element/*.{h,m}', 'LFilterViewSample/Classes/Custom/Cell/*.{h,m}', 'LFilterViewSample/Classes/Custom/ViewController/*.{h,m}', 'LFilterViewSample/Supporting Files/*.{h,m}'
     d.preserve_paths = "LFilterView.xcodeproj"
-    d.dependency 'DKNavbarBackButton/core'
+    d.dependency 'LFilterView/Core'
   end
 
 end
