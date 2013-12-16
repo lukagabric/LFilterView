@@ -58,6 +58,12 @@
 @optional
 - (void)didSelectElementAtIndex:(NSUInteger)elementIndex inSectionAtIndex:(NSUInteger)sectionIndex;
 - (void)didSelectElement:(LFilterElement *)element inSection:(LFilterSection *)section;
+- (BOOL)filterView:(LFilterView *)filterView shouldEditElement:(LFilterElement *)element
+         inSection:(LFilterSection*)section atIndexPath:(NSIndexPath*)indexPath;
+- (BOOL)filterView:(LFilterView *)filterView shouldCommitEditingStyle:(UITableViewCellEditingStyle)editingStyle forElement:(LFilterElement *)element
+         inSection:(LFilterSection*)section atIndexPath:(NSIndexPath*)indexPath;
+- (void)filterView:(LFilterView *)filterView didDeleteElement:(LFilterElement *)element
+         inSection:(LFilterSection*)section atIndexPath:(NSIndexPath*)indexPath;
 
 
 @end

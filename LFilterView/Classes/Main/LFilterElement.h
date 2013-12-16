@@ -44,9 +44,6 @@
 @property (assign, nonatomic) BOOL selected;
 @property (strong, nonatomic) NSString *title;
 
-@property (assign, nonatomic) BOOL isEditingEnabled;
-@property (assign, nonatomic) BOOL commitsEditingStyleDelete;
-
 @property (weak, nonatomic) id <CustomActionDelegate> customActionDelegate;
 
 
