@@ -29,6 +29,8 @@
     if (self)
     {
         _radioGroup = @"default";
+        _isEditingEnabled = NO;
+        _commitsEditingStyleDelete = NO;
     }
     return self;
 }

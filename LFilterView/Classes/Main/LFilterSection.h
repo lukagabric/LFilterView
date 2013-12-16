@@ -39,6 +39,7 @@ typedef enum
 
 
 - (void)addElement:(LFilterElement *)element;
+- (void)removeElement:(LFilterElement *)element;
 
 - (LFilterElement *)elementAtIndex:(NSUInteger)index;
 - (LFilterElement *)elementWithKey:(NSString *)key;

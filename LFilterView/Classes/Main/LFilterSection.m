@@ -41,6 +41,11 @@
     element.parentSection = self;
 }
 
+- (void)removeElement:(LFilterElement *)element
+{
+    [_elements removeObject:element];
+    
+}
 
 - (LFilterElement *)elementAtIndex:(NSUInteger)index
 {

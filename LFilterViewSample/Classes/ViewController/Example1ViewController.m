@@ -25,6 +25,8 @@
         LFilterElement *element = [LFilterElement new];
         element.title = [NSString stringWithFormat:@"Option %d", i];
         element.cellReuseIdentifier = @"LFilterCellReuseIdentifier";
+        element.isEditingEnabled = YES;
+        element.commitsEditingStyleDelete = YES;
         [section addElement:element];
     }
     

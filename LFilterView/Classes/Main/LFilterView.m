@@ -224,6 +224,29 @@
     [(LFilterCell *)cell bindData];
 }
 
+// Override to support conditional editing of the table view.
+// This only needs to be implemented if you are going to be returning NO
+// for some items. By default, all items are editable.
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Return YES if you want the specified item to be editable.
+    LFilterSection *section = [_sections objectAtIndex:indexPath.section];
+    LFilterElement *element = [[section elements] objectAtIndex:indexPath.row];
+    return element.isEditingEnabled;
+}
+
+// Override to support editing the table view.
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        //add code here for when you hit delete
+        LFilterSection *section = [_sections objectAtIndex:indexPath.section];
+        LFilterElement *element = [[section elements] objectAtIndex:indexPath.row];
+        if (element.commitsEditingStyleDelete) {
+            [section removeElement:element];
+            [_tableViewFilter reloadSections:[NSIndexSet indexSetWithIndex:indexPath.section] withRowAnimation:UITableViewRowAnimationAutomatic];
+        }
+    }
+}
+
 
 #pragma mark - Reload filter
 
