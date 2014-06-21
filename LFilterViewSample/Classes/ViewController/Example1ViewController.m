@@ -48,6 +48,24 @@
     [self.navigationController pushViewController:example2ViewController animated:YES];
 }
 
+#pragma mark LFilterView Action Delegate Protocol implementation
+
+- (BOOL)filterView:(LFilterView *)filterView shouldEditElement:(LFilterElement *)element inSection:(LFilterSection *)section atIndexPath:(NSIndexPath *)indexPath {
+    return YES;
+}
+
+- (BOOL)filterView:(LFilterView *)filterView shouldCommitEditingStyle:(UITableViewCellEditingStyle)editingStyle forElement:(LFilterElement *)element inSection:(LFilterSection *)section atIndexPath:(NSIndexPath *)indexPath
+{
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        return YES;
+    }
+    return NO;
+}
+
+- (void)filterView:(LFilterView *)filterView didDeleteElement:(LFilterElement *)element inSection:(LFilterSection *)section atIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"deleted element %@", element.title);
+}
 
 #pragma mark -
 

@@ -224,6 +224,35 @@
     [(LFilterCell *)cell bindData];
 }
 
+// Override to support conditional editing of the table view.
+// This only needs to be implemented if you are going to be returning NO
+// for some items. By default, all items are editable.
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Return YES if you want the specified item to be editable.
+    LFilterSection *section = [_sections objectAtIndex:indexPath.section];
+    LFilterElement *element = [[section elements] objectAtIndex:indexPath.row];
+    BOOL result = NO;
+    if (self.actionDelegate && [self.actionDelegate respondsToSelector:@selector(filterView:shouldEditElement:inSection:atIndexPath:)])
+        result = [self.actionDelegate filterView:self shouldEditElement:element inSection:section atIndexPath:indexPath];
+    return result;
+}
+
+// Override to support editing the table view.
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (editingStyle == UITableViewCellEditingStyleDelete ) {
+        //add code here for when you hit delete
+        LFilterSection *section = [_sections objectAtIndex:indexPath.section];
+        LFilterElement *element = [[section elements] objectAtIndex:indexPath.row];
+        if (self.actionDelegate && [self.actionDelegate respondsToSelector:@selector(filterView:shouldCommitEditingStyle:forElement:inSection:atIndexPath:)]
+            && [self.actionDelegate filterView:self shouldCommitEditingStyle:editingStyle forElement:element inSection:section atIndexPath:indexPath]) {
+            [section removeElement:element];
+            [_tableViewFilter reloadSections:[NSIndexSet indexSetWithIndex:indexPath.section] withRowAnimation:UITableViewRowAnimationAutomatic];
+            if ([self.actionDelegate respondsToSelector:@selector(filterView:didDeleteElement:inSection:atIndexPath:)]) {
+                [self.actionDelegate filterView:self didDeleteElement:element inSection:section atIndexPath:indexPath];
+            }
+        }
+    }
+}
 
 #pragma mark - Reload filter
 
